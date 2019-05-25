@@ -1,0 +1,218 @@
+/* F.Studer HOB CSS */
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+/* ===============
+    ALL: IE Fixes
+   =============== */
+.ie7 .title {
+    padding-top: 20px;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+ font-family:'Brandon Grotesque Black';
+    src:url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-blk-webfont.eot');
+    src:url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-blk-webfont.ttf') format('truetype'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-blk-webfont.svg') format('svg'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-blk-webfont.woff2') format('woff2'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-blk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+ font-family:'Brandon Grotesque Medium';
+    src:url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-med-webfont.eot');
+    src:url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-med-webfont.ttf') format('truetype'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-med-webfont.svg') format('svg'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-med-webfont.woff2') format('woff2'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-med-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+/**, *:before, *:after {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+* img {
+    max-width:100%;
+    height:auto;
+}
+
+
+/* VENUES */
+section.venue-container {
+    margin: 0 auto;
+    text-align:center;
+    width:100%;
+    max-width:980px;
+    overflow:auto;
+}
+.venues-content {
+    margin: 0 auto;
+    text-align:center;
+    max-width:100%;
+    display:block;
+    overflow:auto;
+    margin-bottom:40px;
+    padding-left:15px;
+}
+h3.ven {
+    color:#fff;
+}
+h2.ven2 {
+    color:#fff;
+    margin-bottom:15px;
+}
+article.ven-module {
+    float:left;
+    width:305px;
+}
+.venue {
+   display:inline-block;
+    overflow:hidden;
+     position:relative;
+     padding:0 0;
+     margin: 0 0;
+    margin:0px 3px;
+}
+.bw {
+     width:100%;
+    position:absolute;
+    top:0px;
+    left: 0px;
+    display:block;
+     margin:0px;
+     opacity:0;
+}
+p.citi {
+    z-index:99;
+    position:absolute;
+    bottom:2%;
+    left:12%;
+    font-size:28px;
+    font-family: 'Raleway', sans-serif;
+    color:#fff;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+
+/*Vegas Contact */
+
+#venue-container {
+    margin: 0 auto;
+    text-align:center;
+    width:100%;
+    max-width:1280px;
+    overflow:auto;
+    background-color:#000;
+    padding-bottom:30px;
+}
+#vegas-contact-top {
+    margin: 0 auto;
+    text-align:center;
+    width:100%;
+    max-width:970px;
+    padding:20px 10px;
+}
+article.venue-contact-sidebar {
+    float:left;
+    width:25%;
+    margin-left:15px;
+}
+.contact-img {
+    float:left;
+    width:73%;
+}
+h2.venue-contact {
+    font-family: 'Brandon Grotesque Medium', sans-serif;
+    color:#f0f0f0;
+    letter-spacing:4px;
+    font-size:12px;
+    margin:10px 0px;
+    text-align:left;
+    line-height:28px;
+    text-transform:uppercase;
+}
+.ven-details {
+    font-family:Times, serif;
+    color:#b09363;
+    font-size:17px;
+    line-height:30px;
+    margin:3px 0px;
+    text-align:left;
+}
+.ven-cont-icons {
+    color:#b09363
+}
+button.purple {
+    background-color:#9f2889;
+    margin-left:-30px;
+    width:90%;
+    padding:12px 20px;
+    color:#fff;
+    font-family: 'Brandon Grotesque Medium', sans-serif;
+    color:#fff;
+    letter-spacing:3px;
+    font-size:12px;
+    margin:20px 0px 10px;
+    border:none;
+    text-transform:uppercase;
+}
+#vegas-direct-contacts {
+    margin: 0 auto;
+    text-align:center;
+    width:100%;
+    max-width:1280px;
+    overflow:auto;
+    background-color:#fff;
+}
+@media screen and (max-width:950px) {
+    article.ven-module {
+        float:left;
+        width:33%;
+    }
+    .venues-content {
+        padding-left:0px;
+    }
+}
+@media screen and (max-width:935px) {
+    article.venue-contact-sidebar, .contact-img {
+        width:100%;
+        margin-left:0px;
+    }
+    button.purple {
+        width:40%;
+        margin-bottom:30px;
+    }
+    h2.venue-contact, .ven-details {
+        text-align:center;
+    }
+    .xx {display:none;}
+}
+@media screen and (max-width:837px) {
+    p.citi {
+        left:8%;
+        font-size:28px;
+    }
+}
+@media screen and (max-width:707px) {
+    article.ven-module {
+        float:none;
+        width:302px;
+        text-align:center;
+        margin:0 auto;
+    }
+    p.citi {
+        left:10%;
+        font-size:28px;
+    }
+    
+}

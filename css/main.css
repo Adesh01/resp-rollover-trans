@@ -1,0 +1,306 @@
+/* F.Studer HOB CSS */
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+/* ===============
+    ALL: IE Fixes
+   =============== */
+.ie7 .title {
+    padding-top: 20px;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+ font-family:'Brandon Grotesque Black';
+    src:url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-blk-webfont.eot');
+    src:url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-blk-webfont.ttf') format('truetype'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-blk-webfont.svg') format('svg'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-blk-webfont.woff2') format('woff2'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-blk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+ font-family:'Brandon Grotesque Medium';
+    src:url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-med-webfont.eot');
+    src:url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-med-webfont.ttf') format('truetype'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-med-webfont.svg') format('svg'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-med-webfont.woff2') format('woff2'),
+        url('http://maven-prod.azurewebsites.net/Themes/HOB/fonts/brandon-med-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+/**, *:before, *:after {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+* img {
+    max-width:100%;
+    height:auto;
+}
+/*memb benefits */
+h2.benef-header {
+    font-family:'Raleway',Arial, sans-serif;
+    margin: 0 auto;
+    text-align:center;
+    font-size:18px;
+    letter-spacing:2px;
+    color:#333;
+    margin-top:40px;
+    margin-bottom:20px;
+    text-transform:uppercase;
+}
+.benef-content {
+    text-align:center;
+    padding-left:5%;
+    margin-left:0;
+}
+article.module {
+    float:left;
+    width:19%;
+    margin-bottom:0px;
+}
+@media screen and (min-width: 1075px) {
+      article.module {
+            width:18.7%;
+        }
+        .benef-content {
+           margin-left:7%;
+            width:80%;
+        }
+}
+@media screen and (min-width: 1271px) {
+     article.module {
+            width:187px;
+        }
+       .benef-content {
+            margin-left:9%;
+        }
+    }
+   @media screen and (min-width: 1320px) {
+        .benef-content {
+            margin-left:11%;
+        }
+    }
+    @media screen and (min-width: 1450px) {
+        .benef-content {
+            margin-left:13%;
+        }
+    }
+    @media screen and (min-width: 1510px) {
+        .benef-content {
+            margin-left:15%;
+        }
+    }
+     @media screen and (min-width: 1580px) {
+        .benef-content {
+            margin-left:16%;
+        }
+    }
+    @media screen and (min-width: 1640px) {
+        .benef-content {
+            margin-left:18%;
+        }
+    }
+     @media screen and (min-width: 1700px) {
+        .benef-content {
+            margin-left:20%;
+        }
+    }
+    @media screen and (max-width: 670px) {
+        .benef-content {
+            padding-left:0%;
+        }
+    }
+.benef5 {
+    display:inline-block;
+    overflow:hidden;
+     position:relative;
+     padding:0 0;
+     margin: 0 0;
+      margin-bottom:20px;
+}
+.touch {
+     width:100%;
+    position:relative;
+    display:block;
+     margin:0px;
+}
+h3.title-benef {
+    position:absolute;
+    bottom:5%;
+    left:1%;
+    right:1%;
+    color:#fff;
+    text-shadow:1px 2px 2px #111;
+    font-size:28px;
+    font-family:'Raleway', Arial, sans-serif;
+    letter-spacing:-2px;
+    font-weight:lighter;
+    text-transform:uppercase;
+    margin-bottom:10px;
+}
+@media screen and (max-width: 780px) {
+    h3.title-benef {
+        font-size:22px;
+        line-height:24px;
+    }
+}
+@media screen and (max-width: 660px) {
+    h3.title-benef {
+        font-size:32px;
+        line-height:34px;
+    }
+}
+.desc {
+    /*width:100%;*/
+    position:absolute;
+    display:block;
+     margin:0px;
+     opacity:0;
+     top:0px;
+     left:0px;
+     right:0px;
+     margin: 0 auto;
+     text-align:center;
+}
+h3.title-desc {
+    position:absolute;
+    top:-260px;
+    left:1%;
+    right:1%;
+     color:#fff;
+    text-shadow:1px 2px 2px #000;
+    font-size:28px;
+    line-height:32px;
+    font-family:'Raleway', Arial, sans-serif;
+    letter-spacing:-2px;
+    font-weight:lighter;
+    text-transform:uppercase;
+    padding:5px;
+    /*-webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 0.5s forwards;
+    animation-delay: 1s;
+}
+@-webkit-keyframes slide {
+    100% { top: 40%; }
+}
+@keyframes slide {
+    100% { top:40%; }*/
+}
+@media screen and (max-width: 850px) {
+    h3.title-desc {
+        font-size:24px;
+        line-height:27px;
+    }
+}
+@media screen and (max-width: 740px) {
+    h3.title-desc {
+        font-size:21px;
+        line-height:25px;
+    }
+}
+@media screen and (max-width: 670px) {
+    h3.title-desc {
+        display:none;
+    }
+}
+h3.title-desc span {
+    font-size:16px;
+    letter-spacing:-.5px;
+    text-transform:none;
+    line-height:24px;
+}
+@media screen and (max-width: 670px) {
+    article.module {
+        width:100%;
+    }
+    .benef5 {
+        display:block;
+        margin-bottom:8px;
+    }
+    .touch {
+        width:100%;
+        height:260px;
+        background-color:rgba(0,0,0,.7);
+     }
+     h3.title-benef {
+        bottom:44%;
+        width:180px;
+        margin: 0 auto;
+        text-align:center;
+     }
+     h3.title-desc {
+        /*top:10%;
+        width:180px;
+        margin: 0 auto;
+        text-align:center;*/
+     }
+}
+#content-memb {
+    margin: 0 auto;
+    text-align:center;
+}
+#content-memb p {
+    font-weight:normal;
+    font-size:13px;
+    padding-top: 20px;
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-bottom:15px;
+    color: #b09363;
+    font-family: 'Bitter', Times New Roman, serif;
+}
+div.tease {
+    width:40%;
+    margin: 0 auto;
+    text-align:center;
+    border-top:1px dotted #222;
+}
+button.tease {
+    width:60%;
+    padding:14px 20px;
+    background-color:#333;
+    color:#fff;
+    border-top:none;
+    border-left:none;
+    border-bottom:2px solid #666;
+    border-right:666;
+    margin:30px 25px 40px;
+    font-family:'Raleway', Arial, sans-serif;
+    font-size:12px;
+    text-transform:uppercase;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+@media screen and (max-width: 930px) {
+    #content-memb p {
+        padding-left:10%;
+        padding-right:12%;
+    }
+}
+@media screen and (max-width: 760px) {
+    div.tease {
+        width:100%;
+    }
+}
+@media screen and (max-width: 550px) {
+    button.tease {
+        width:75%;
+    }
+}
+@media screen and (max-width: 440px) {
+    button.tease {
+        width:80%;
+    }
+}
+
+
